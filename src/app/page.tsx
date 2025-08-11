@@ -179,7 +179,7 @@ export default function ChatPage() {
     ];
 
     try {
-        const apiKey = "AIzaSyCGgutbuyoz8lYBEplX6xLaNL7AZXmo7qs";
+        const apiKey = "";
         const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:streamGenerateContent?key=${apiKey}&alt=sse`;
         
         const response = await fetch(apiUrl, {
